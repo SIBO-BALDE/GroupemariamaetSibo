@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --bleu:#030722;
+    --jaune:#a98a3c;
+    --blan:#ffff;
+    --icon:#323E53;
+    --bootom:#D09B29;
+}
+/* ******************************************************Headre design**************************************************************** */
+
+
+
+
+
+/* *****************************************Tobar design*********************************** */
+.topbar{
+    background-color: var(--bleu);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.test ul{
+    display: flex;
+    justify-content: flex-start;
+    color: var(--blan);
+    margin-left: 70px;
+    margin-bottom: 15px;
+    
+}
+
+
+.fa-location-dot,.fa-clock,.fa-phone{
+    margin-right: 10px;
+    color: var(--bootom);
+}
+.icons ul{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--blan);
+    margin-top: 15px;
+    
+    
+   
+    
+    
+   
+    
+}
+.icons{
+    margin-left: 400px;
+   
+   
+}
+.listtext{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.fa-facebook-f,.fa-twitter,.fa-google-plus-g,.fa-pinterest-p{
+    margin-left: 10px;
+    background-color: var(--icon);
+    padding: 8px;
+    border-radius: 5px;
+   
+    
+
+}
+
+     /* *****************************************Navbar design*********************************** */
+    .navbar{
+        background-color: var(--blan);
+        height: 95px;
+    }
+
+    #img-nav{
+        font-size: 600px;
+        margin-top: 20px;
+     }
+
+
+     .menu ul{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 90px;
+        background-color: red;
+     }
+     ul li{
+        margin-right: 30px;
+    
+     }
+     ul :hover{
+        color: var(--bootom);
+     }
+
+     .fa-chevron-down,.active{
+        color: var(--bootom);
+     }
+     
+
+
+
+
+
+        /* *****************************************Corps de la page design*********************************** */
+        .contenu{
+            background-color: var(--bleu);
+        }
+
