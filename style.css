@@ -88,11 +88,12 @@
      .menu ul{
         display: flex;
         justify-content: flex-end;
-        margin-bottom: 90px;
+        /* margin-bottom: 90px; */
         /* background-color: red; */
      }
      ul li{
         margin-right: 30px;
+        margin-top: -20px;
     
      }
      ul :hover{
