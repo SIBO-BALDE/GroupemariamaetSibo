@@ -140,5 +140,15 @@
           .progressbar[title="downloaded"] {
              background-color: var(--success);
           }
-            
+
+
+           /* *****************************************Navbar design*********************************** */
+          .bottompage{
+            display: grid;
+            grid-template-rows: repeat(2,1fr);
+          } 
+          .bas-page{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+          }
 
